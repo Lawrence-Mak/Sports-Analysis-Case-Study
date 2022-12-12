@@ -65,11 +65,11 @@ In order to find out which coefficients have an effect on player salary, we will
 The hypothesis is that all variables should have a positive effect on salary. The variables we will be using are: Career Games, Minutes per Game, Points per Game, Assists per Game, Rebounds per Game, Blocks and Steals per Game, and Field Goal Percentage per Game.
 
 After performing a linear regression, the results show are:
-<br> Salary = -1716992.44 + 13831.59CG + 288690.19Min + 156261.79P - 1861952.55A - 282462.01R - 1289671.79BS + 7158822.05FG%
+<br>Salary = -1716992.44 + 13831.59CG + 288690.19Min + 156261.79P - 1861952.55A - 282462.01R - 1289671.79BS + 7158822.05FG%
 
-<br> n = 20             Adjusted R^2 = 0.417483185
+n = 20             Adjusted R^2 = 0.417483185
 
-<br> 𝑤ℎ𝑒𝑟𝑒,
+𝑤ℎ𝑒𝑟𝑒,
 <br> 𝑆𝑎𝑙𝑎𝑟𝑦 = 𝑃𝑙𝑎𝑦𝑒𝑟 𝑠𝑎𝑙𝑎𝑟𝑦 𝑓𝑜𝑟 2018 − 2019
 <br> 𝐶𝐺 = 𝐶𝑎𝑟𝑒𝑒𝑟 𝐺𝑎𝑚𝑒𝑠 𝑢𝑝 𝑡𝑜 𝑡ℎ𝑒 𝑠𝑡𝑎𝑟𝑡 𝑜𝑓 2018 − 2019
 <br> 𝑀𝑖𝑛 = 𝑀𝑖𝑛𝑢𝑡𝑒𝑠/𝑔𝑎𝑚𝑒 𝑖𝑛 2018 − 2019
@@ -96,8 +96,7 @@ Using the regression results, we are able to calculate and see whether a player 
 After observing previous regression results, I am interested in adding another variable which should have a postive correlation with salary. I hypothesize that free throws should have a positive correlation with salary. I chose this variable because getting a free throw opportunity means that the player is fouled. I think getting fouled in the NBA is actually really significant because it puts pressure on the enemy team of getting “fouled out” and it also means theres an opportunity to get 1 or 2 additional points. In my thinking, players that get fouled a lot are the best players. The most fouled players are usually the ones who attack the paint often or attract double teams on the perimeter. This means that they are usually the biggest threat on the field according to the other team. An example is 2020-2021 MVP candidate Giannis Antetokounmpo, who was the most fouled player in the season. Furthermore, from the LA Clippers, the top three most fouled players also had the top three points per game. Lou Williams had 5.7 free throws per game, and 20 points per game, Danilo Gallinari had 5.4 FT/Game and 19.8 PPG, and Tobias Harris had 3.5 FT/Game and 20.9 PPG.
 
 After adding free throws, the new regression will look like this:
-
-Salary = - -3285188.35 + 10724.90CG + 773076.62Min - 1192015.37P - 2744074.04A - 48915.93R - 3068938.38BS + 8802751.60FG% + 3966455.09FT
+<br>Salary = - -3285188.35 + 10724.90CG + 773076.62Min - 1192015.37P - 2744074.04A - 48915.93R - 3068938.38BS + 8802751.60FG% + 3966455.09FT
 
 n = 20             Adjusted R^2 = 0.522365013
 
@@ -112,7 +111,7 @@ n = 20             Adjusted R^2 = 0.522365013
 <br>𝐹𝐺% = 𝐹𝑖𝑒𝑙𝑑 𝐺𝑜𝑎𝑙 𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒 𝑖𝑛 2018 – 2019
 <br>FT = Free Throws/Game 𝑖𝑛 2018 – 2019
 
-As predicted, the new variable increased the adjusted R^2 in comparison from my R^2 from problem 1. The new variable is also significant at the 90% confidence interval. As mentioned before, this is expected because the players that are fouled the most on the court are usually either deemed the biggest threat by the other team, like Giannis, or are the most creative in ways of getting extra points, like Steph Curry or James Harden (Before the three-point rule change). Thus, the best players would demand a higher salary. This hypothesis was evident in the data from the 2018-2019 LA Clippers, as the top three players with the most free throws per game also held the record for top three points per game.
+As predicted, the new variable increased the adjusted R^2 in comparison from the R^2 without free throws. The new variable is also significant at the 90% confidence interval. As mentioned before, this is expected because the players that are fouled the most on the court are usually either deemed the biggest threat by the other team, like Giannis, or are the most creative in ways of getting extra points, like Steph Curry or James Harden (Before the three-point rule change). Thus, the best players would demand a higher salary. This hypothesis was evident in the data from the 2018-2019 LA Clippers, as the top three players with the most free throws per game also held the record for top three points per game.
 
 ## Conclusion
 
