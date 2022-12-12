@@ -118,7 +118,12 @@ As predicted, the new variable increased the adjusted R^2 in comparison from my 
 
 It is important to remember that the correlation between the variables above do not imply causation.
 
-This being said, it is interesting to see the correlation between all the different variables. The regression between winning percentage and average attendance boasted the highest R^2 out of all results, whereas the regression between payroll and average attendance had the lowest level of correlation. 
+Athletes and coaches can understand performance better thanks to the patterns and trends that have been observed.
+Systematic observation, which gives accurate, trustworthy, and comprehensive information on performance, serves as the foundation for this procedure.
+
+It is interesting to see the correlation between all the different variables. The regression between winning percentage and average attendance boasted the highest R^2 out of all results, whereas the regression between payroll and average attendance had the lowest level of correlation. These trends are useful for managers and shareholders who invest in sports teams. 
+
+
 
 
 
