@@ -97,11 +97,11 @@ After observing previous regression results, I am interested in adding another v
 
 After adding free throws, the new regression will look like this:
 
-<br>Salary = - -3285188.35 + 10724.90CG + 773076.62Min - 1192015.37P - 2744074.04A - 48915.93R - 3068938.38BS + 8802751.60FG% + 3966455.09FT
+Salary = - -3285188.35 + 10724.90CG + 773076.62Min - 1192015.37P - 2744074.04A - 48915.93R - 3068938.38BS + 8802751.60FG% + 3966455.09FT
 
-<br>n = 20             Adjusted R^2 = 0.522365013
+n = 20             Adjusted R^2 = 0.522365013
 
-<br>𝑤ℎ𝑒𝑟𝑒,
+𝑤ℎ𝑒𝑟𝑒,
 <br>𝑆𝑎𝑙𝑎𝑟𝑦 = 𝑃𝑙𝑎𝑦𝑒𝑟 𝑠𝑎𝑙𝑎𝑟𝑦 𝑓𝑜𝑟 2018 − 2019
 <br>𝐶𝐺 = 𝐶𝑎𝑟𝑒𝑒𝑟 𝐺𝑎𝑚𝑒𝑠 𝑢𝑝 𝑡𝑜 𝑡ℎ𝑒 𝑠𝑡𝑎𝑟𝑡 𝑜𝑓 2018 − 2019
 <br>𝑀𝑖𝑛 = 𝑀𝑖𝑛𝑢𝑡𝑒𝑠/𝑔𝑎𝑚𝑒 𝑖𝑛 2018 − 2019
@@ -114,7 +114,7 @@ After adding free throws, the new regression will look like this:
 
 As predicted, the new variable increased the adjusted R^2 in comparison from my R^2 from problem 1. The new variable is also significant at the 90% confidence interval. As mentioned before, this is expected because the players that are fouled the most on the court are usually either deemed the biggest threat by the other team, like Giannis, or are the most creative in ways of getting extra points, like Steph Curry or James Harden (Before the three-point rule change). Thus, the best players would demand a higher salary. This hypothesis was evident in the data from the 2018-2019 LA Clippers, as the top three players with the most free throws per game also held the record for top three points per game.
 
-### Conclusion
+## Conclusion
 
 It is important to remember that the correlation between the variables above do not imply causation.
 
@@ -122,6 +122,8 @@ Athletes and coaches can understand performance better thanks to the patterns an
 Systematic observation, which gives accurate, trustworthy, and comprehensive information on performance, serves as the foundation for this procedure.
 
 It is interesting to see the correlation between all the different variables. The regression between winning percentage and average attendance boasted the highest R^2 out of all results, whereas the regression between payroll and average attendance had the lowest level of correlation. These trends are useful for managers and shareholders who invest in sports teams. 
+
+ 
 
 
 
