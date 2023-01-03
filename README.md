@@ -14,6 +14,8 @@ The variables this case study will cover are:
           </ul>         
 It is important to remember that correlation does not imply causation. 
 
+All visualizations are done within Excel.
+
 ## Winning Percentage vs. Average Attendance
 
 The first two variables we will be comparing are winning percentage and attendance. The question is - does having a higher attendance mean the team has a higher possibility to win?
